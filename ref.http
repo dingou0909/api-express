@@ -1,0 +1,21 @@
+###
+GET http://localhost:3000/filmes
+
+###
+GET http://localhost:3000/jogos
+
+###
+POST http://localhost:3000/filmes
+Content-Type: application/json
+
+{
+  "filmes": "O Poderoso Chefão"
+}
+
+###
+POST http://localhost:3000/jogos
+Content-Type: application/json
+
+{
+  "jogos": "Zelda"
+}
